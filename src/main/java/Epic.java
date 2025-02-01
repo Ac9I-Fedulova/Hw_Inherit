@@ -2,7 +2,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Epic extends Task {
-    protected String[]subtasks;
+    protected String[] subtasks;
 
     public Epic(int id, String[] subtasks) {
         super(id);
@@ -22,5 +22,4 @@ public class Epic extends Task {
         }
         return false;
     }
-
 }
